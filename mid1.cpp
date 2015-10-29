@@ -64,7 +64,7 @@ int milesToKmTest(double miles, double tolerance, double Km)
         cout << "     <--- bad value"; 
         j++;
     }
-    cout << endl << tolerance;
+    //cout << endl << tolerance;
     cout << endl;
     return j;
 
