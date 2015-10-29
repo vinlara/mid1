@@ -53,7 +53,7 @@ double milesToKm(double miles)
     return (miles * 0.62137);
 }
 
-int milesToKmTest(double miles, double tolerance, double Km)
+int milesToKmTest(double miles, double Km, double tolerance)
 {
     int j = 0;
     cout << "       " << miles << "        " << milesToKm(miles);
